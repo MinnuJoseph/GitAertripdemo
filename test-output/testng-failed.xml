@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="url" value="http://aertrip.com"/>
+  <test thread-count="5" name="BookedHotelTest(failed)">
+    <classes>
+      <class name="CucumberOptions.TestRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="1"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- CucumberOptions.TestRunner -->
+    </classes>
+  </test> <!-- BookedHotelTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
